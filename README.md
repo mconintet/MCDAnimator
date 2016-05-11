@@ -25,6 +25,20 @@ let animatorX = MCDAnimator.animate(Double(v.center.x), to: Double(x), duration:
 animatorX.start()
 ```
 
+## Install
+
+Append this line into your `Cartfile`:
+
+```
+github "mconintet/MCDAnimator" "master"
+```
+
+then update carthage using:
+
+```
+carthage update --platform iOS
+```
+
 ## Screenshot
 
 ![](https://raw.githubusercontent.com/mconintet/MCDAnimator/master/screenshots/s.gif)
